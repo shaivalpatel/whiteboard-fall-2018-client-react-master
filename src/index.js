@@ -1,9 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import CourseList from "./components/CourseList";
-import UserList from "./components/UserList";
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/font-awesome/css/font-awesome.css';
+import WhiteBoard from './containers/WhiteBoard'
+
+
+
+
 
 ReactDOM.render(
-  <UserList/>,
-  document.getElementById('root')
+    <div className="container-fluid">
+        <WhiteBoard/>
+
+    </div>,
+    document.getElementById("root")
 )
