@@ -1,4 +1,4 @@
-const API_URL='http://localhost:8080/api/course/cid/module'
+const API_URL='http://ancient-reef-36944.herokuapp.com/api/course/cid/module'
 
 export default class ModuleService{
 

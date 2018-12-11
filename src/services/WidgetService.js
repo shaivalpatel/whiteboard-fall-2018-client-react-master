@@ -1,4 +1,4 @@
-const API_URL='http://localhost:8080/api/topic/tid/widget'
+const API_URL='http://ancient-reef-36944.herokuapp.com/api/topic/tid/widget'
 
 export default class WidgetService {
     static findAllWidgetsForTopic = (topicId) => {

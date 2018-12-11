@@ -1,5 +1,5 @@
-const API_URL='http://localhost:8080/api/course/cid/module/mid/lesson'
-const API_URL1='http://localhost:8080/api/module/mid/lesson'
+const API_URL='http://ancient-reef-36944.herokuapp.com/api/course/cid/module/mid/lesson'
+const API_URL1='http://ancient-reef-36944.herokuapp.com/api/module/mid/lesson'
 
 
 export default class LessonService{

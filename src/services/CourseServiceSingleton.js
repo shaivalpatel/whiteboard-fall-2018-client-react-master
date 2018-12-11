@@ -1,4 +1,4 @@
-const API_URL='http://localhost:8080/api/user/'
+const API_URL='http://ancient-reef-36944.herokuapp.com/api/user/'
 
 
 
