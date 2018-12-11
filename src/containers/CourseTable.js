@@ -22,7 +22,7 @@ class CourseTable extends React.Component{
     }
     componentDidMount(){
 
-        return fetch('http://localhost:8080/api/profile',{
+        return fetch('http://ancient-reef-36944.herokuapp.com/api/profile',{
             credentials:'include'
         }).then(response=>response.json()).then(user=>{
             this.setState({
