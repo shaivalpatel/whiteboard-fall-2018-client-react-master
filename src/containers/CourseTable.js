@@ -98,7 +98,7 @@ class CourseTable extends React.Component{
                     <tbody>
                     {
 
-                        this.state.courses.map((course, index) =>
+                        this.state.courses && this.state.courses.map((course, index) =>
                             (<CourseRow
                                course={course}
                                id={this.state.userId}
