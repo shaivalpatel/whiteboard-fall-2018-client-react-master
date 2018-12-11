@@ -1,17 +1,12 @@
 import React, {Component} from 'react'
 import ModuleList from "../components/ModuleList";
-import {Route} from 'react-router-dom'
-import LessonTabs from "../components/LessonTabs";
-import CourseEditorNavbar from "../components/CourseEditorNavbar";
-import TopicTabs from "../components/TopicTabs"
 
-import WidgetList from "../components/WidgetList"
+import CourseEditorNavbar from "../components/CourseEditorNavbar";
+
 
 import widgetReducer from "../reducers/WidgetReducer"
 import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import WidgetListContainer from '../containers/WidgetListContainer'
-import CourseServiceSingleton from '../services/CourseServiceSingleton'
+
 const store = createStore(widgetReducer)
 
 export default class CourseEditor extends Component {
