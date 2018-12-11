@@ -42,7 +42,8 @@ usernameChange= e =>{
                     'Content-type':'application/json'
                 }
 
-            }).then(response=>response.json()).then(()=>{
+            }).then(response=>response.status).then(()=>{
+                console.log("logged")
                 this.setState({
                     logged:true
                });
